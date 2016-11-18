@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="login">Login</string>
+    <string name="login_empty">Tên đăng nhập hoặc mật khẩu bị trống!</string>
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="login_fail">Tài khoản không tồn tại!</string>
+    <string name="idCustomer">Mã khách hàng :</string>
+    <string name="nameCustomer">Tên khách hàng :</string>
+    <string name="dateCustomer">Ngày sinh :</string>
+    <string name="mailCustomer">Email :</string>
+    <string name="phoneCustomer">Số điện thoại :</string>
+    <string name="search">Search</string>
+    <string name="search_lable">Search</string>
+    <string name="search_hint">Search Name</string>
+    <string name="sms_fail">Tin nhắn không được gửi!</string>
+    <string name="sms_success">Tin nhắn gửi thành công!</string>
+</resources>

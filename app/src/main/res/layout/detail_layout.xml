@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/idCustomer"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="134566"
+        android:id="@+id/tvIdCustomer"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/nameCustomer"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvNameCustomer"
+        android:text="Linkin Park"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/dateCustomer"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvDate"
+        android:text="3/3/1995"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/mailCustomer"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvEmail"
+        android:text="linkinpark@gmail.com"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/phoneCustomer"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPhone"
+        android:text="01662277896"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Cơ quan :"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvOrganization"
+        android:text="Muscal"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Chức vụ :"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPosision"
+        android:text="Giám đốc"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Dịa chỉ :"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvAddress"
+        android:text="Hà Nội"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Loại khách hàng :"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvType"
+        android:text="Tiềm năng"
+        android:textColor="@color/colorPrimary"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

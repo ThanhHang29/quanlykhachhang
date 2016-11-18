@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvSMSTitle"
+        android:text="32-MBBank-Phạm Thị Xuân Diệu"
+        android:textColor="#000000"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvSMSPhone"
+        android:layout_below="@id/tvSMSTitle"
+        android:textColor="@android:color/holo_red_light"
+        android:text="01662205865"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvSMS"
+        android:layout_below="@id/tvSMSPhone"
+        android:layout_marginTop="10dp"
+        android:text="Nội dung gửi :"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtSMS"
+        android:layout_below="@id/tvSMS"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_height="80dp">
+        <requestFocus/>
+    </EditText>
+    <Button
+        android:layout_width="77dp"
+        android:id="@+id/btnSend"
+        android:layout_below="@id/edtSMS"
+        android:layout_marginTop="10dp"
+        android:text="send"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="77dp"
+        android:id="@+id/btnCancel"
+        android:layout_below="@id/edtSMS"
+        android:layout_toRightOf="@id/btnSend"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="cancel"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

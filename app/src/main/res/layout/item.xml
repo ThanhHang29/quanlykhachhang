@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_red_light"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvTitle"
+            android:text="ID-Khu vực-công ty"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvPhoneNumber"
+            android:layout_centerVertical="true"
+            android:text="0971650896"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="30dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/btnCall"
+            android:background="@drawable/state_call"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/btnSMS"
+            android:layout_toRightOf="@id/btnCall"
+            android:background="@drawable/state_sms"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/btnInfo"
+            android:layout_toRightOf="@id/btnSMS"
+            android:background="@drawable/state_infor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
